@@ -45,8 +45,8 @@ public class Main {
                 break;
 
             default:
-                if (decisionOperation < 1 || decisionOperation > 4) {
-                    System.out.println("Opcion no valida. Por favor, ingrese un  numero del 1 al 4.");
+                if (decisionOperation < 1 || decisionOperation > 3) {
+                    System.out.println("Opcion no valida. Por favor, ingrese un  numero del 1 al 3.");
                 }
                 break;
         }

@@ -30,8 +30,8 @@ public class Permiso_db extends Crud_db {
                         result.getString("descripcion")
                 );
             }
-        } catch (SQLException e) {
-            System.out.println("Error al leer el permiso: " + e.getMessage());
+        } catch (SQLException error) {
+            System.out.println("Error al leer el permiso: " + error);
         }
         return null;
     }
@@ -70,8 +70,8 @@ public class Permiso_db extends Crud_db {
                         rs.getString("descripcion")
                 ));
             }
-        } catch (SQLException e) {
-            System.out.println("Error al obtener todos los permisos: " + e.getMessage());
+        } catch (SQLException error) {
+            System.out.println("Error al obtener todos los permisos: " + error);
         }
         return permisos;
     }
